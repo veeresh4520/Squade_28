@@ -1,25 +1,25 @@
-# Issue #43: Employee Leave Management: Route menu option 2 to approve
+# Issue #43: Employee Leave Management — Operation Flow
 
-**Difficulty:** Hard  
-**Scenario:** Employee Leave Management: Route menu option 2 to approve. The supplied example uses fixed values so the participant can focus on the behaviour of this one operation.  
-**Topic:** logical errors, conditions, loops, arrays, strings, classes/objects, constructors, and methods  
+**Difficulty:** Hard (CodeChef-style 500–600 range)  
+**Topic:** multi-condition reasoning, arrays, loops, arithmetic, strings, object state, constructors, and methods  
 **Starter file:** `src/main/java/hackathon/Issue43_LeaveRecordMenuChoice.java`
 
 ## Scenario brief
-Employee Leave Management: Route menu option 2 to approve. The supplied example uses fixed values so the participant can focus on the behaviour of this one operation.. This is a small, isolated exercise; keep the solution within beginner Java and do not add collections or external libraries.
+This challenge sits around the CodeChef beginner 500–600 difficulty range. A realistic workflow is producing an unexpected result even though the sample looks straightforward. Several parts of the program may influence the outcome, so test the supplied case alongside nearby and combined cases.
 
 ## Task
-The employee leave management menu uses option 1 for request and option 2 for approve. When the user enters 2, the program currently runs the first action. Make option 2 select the correct action.
+Follow a request through the available operations and observe how each choice changes the resulting state. Pay attention to paths that share data but should not behave identically. Use the existing scenario and sample as evidence, then make the smallest reliable correction that fits the intended behavior. Do not hard-code the sample result or remove the scenario's constraints.
 
 ## Expected output
+
 The program should produce exactly:
 
 ```text
-Menu action: Approve
+Cancelled: 53
 ```
 
 ## Done when
-- [ ] The program produces the expected output.
-- [ ] The supplied scenario and test values are preserved.
-- [ ] You test one additional sensible boundary case.
-- [ ] Your pull request explains the behaviour changed and how you tested it.
+- [ ] The program matches the supplied sample output.
+- [ ] Related edge cases behave consistently with the scenario.
+- [ ] The existing inputs and project structure are preserved.
+- [ ] The change is explained with the reasoning and tests used.
